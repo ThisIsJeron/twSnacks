@@ -61,6 +61,11 @@ st.set_page_config(
 # Display the checkboxes and calculate the score
 #st.title('')
 st.markdown("<h1 style='text-align: center; color: red;'>台灣小吃我超愛清單!</h1>", unsafe_allow_html=True)
+st.markdown(
+    "<h3 style='text-align: center; '>made by <a href='https://github.com/ThisIsJeron' target='_blank'>Jeron Wong</a></h3>",
+    unsafe_allow_html=True
+)
+
 
 
 col1, col2, col3 = st.columns(3)
